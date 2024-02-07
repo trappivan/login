@@ -51,6 +51,7 @@ const Page = () => {
 					className="border-red-900 border-1 border-solid"
 				/>
 				<button onClick={onLogin}>Login</button>
+				<Link href="/forgotpassword">Forgot password</Link>
 				<Link href="/signup"> GO TO SIGNUP</Link>
 			</div>
 		</div>
